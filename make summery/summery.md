@@ -1,6 +1,6 @@
 ## 周项目问题及实现总结：
 
-1. Danale SDK不能调用问题
+1.  SDK不能调用问题
 ![图片](http://cdn.cocimg.com/bbs/attachment/Fid_21/21_497367_ccebc3ef812d0d9.png)
 
 解决方法：打包静态库的时候，有一个Link Frameworks Automatically设置，默认为YES，会自动链接框架。
